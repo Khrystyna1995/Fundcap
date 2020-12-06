@@ -1,0 +1,147 @@
+@media (max-width: 1200px){
+    .container{
+       margin: 15px;
+    }
+   .about{
+       margin-left: 50px;
+       padding-right: 25px;
+   }
+}
+
+@media (max-width: 1156px){
+    .main_content-text{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .header_login{
+        margin-left: 50px;
+    }
+    .about{
+        margin-top: 300px;
+    }
+    .about_items{
+        display: block;
+    }
+    .about_item-left{
+        margin-bottom: 30px;
+
+    }
+}
+
+
+@media (max-width: 940px){
+
+    .about{
+        display: block;
+
+    }
+    .about_items{
+        margin-top: 300px ;
+    }
+
+    /*BURGER*/
+
+    .burger_menu{
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        top: 20px;
+        right: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .line{
+        width: 100%;
+        height: 2px;
+        background-color: crimson;
+
+    }
+    .navbar{
+        width: 300px;
+        height: 100%;
+        position: fixed;
+        background-color: black;
+        opacity: 0.8;
+        top: 0;
+        right: -300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20% 0 0 60%;
+    }
+
+    .change{
+        right: 0;
+    }
+    .nav_list{
+        margin-top: 38px;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .nav_list a{
+        font-size: 12px;
+    }
+    .nav_link{
+        color: black;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 1px;
+
+    }
+}
+
+@media (max-width: 910px){
+    .services_items{
+        display: flex;
+        flex-direction: column;
+    }
+    .services_item{
+        padding: 93px 140px 146px;
+    }
+    .about{
+        margin-top: 1200px;
+    }
+    .about_items{
+        display: block;
+    }
+    .about_item-left{
+        margin-bottom: 30px;
+
+    }
+}
+
+@media (max-width: 800px){
+    .about{
+        margin-top: 1200px;
+    }
+}
+
+@media (max-width: 792px){
+    .about{
+        margin-top: 1200px;
+    }
+}
+@media (max-width: 540px){
+    .about{
+        margin-top: 1700px;
+    }
+}
+@media (max-width: 414px){
+    .about{
+        margin-top: 1900px;
+    }
+    .about_item-left{
+        font-size: 15px;
+        letter-spacing: 0.1px;
+        line-height: 15px;
+    }
+    .about_item-right{
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        line-height: 15px;
+    }
+}
+

@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
+    background: #f1f3f6;
+}
+/*SECTION HEADER*/
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.header{
+
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding-top: 24px;
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+/*SECTION MENU*/
+
+.nav_list{
+    display: flex;
+
+    height: 50px;
+}
+.nav_list a{
+    color: white;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 0 18px ;
+    border: 1px solid transparent ;
+    opacity: 0.9;
+    transition: all 0.3s;
+}
+.header_login{
+    margin-left: 200px;
+}
+.nav_list a:hover{
+    border-color: white;
+}
+
+
+/*SECTION TEXT*/
+
+.main_content{
+    color: white;
+    margin-top: 100px;
+}
+
+.main_content-text{
+    font-size: 55px;
+    line-height: 68px;
+}
+
+.main_content-btn{
+    margin-top: 58px;
+    width: 200px;
+    height: 45px;
+    background: white;
+}
+.main_content-btn a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+}
+
+/*SECTION SERVICES*/
+
+.container_services{
+    position: absolute;
+    top: 526px;
+    left: 137px;
+}
+.services{
+    padding: 50px 0 30px;
+}
+
+.services_items{
+    display: flex;
+    justify-content: space-between;
+}
+.services_item{
+    padding: 33px 72px 80px;
+    position: relative;
+    min-height: 375px;
+    background-color: #fffefe;
+}
+.services_item-title{
+    color: #212020;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 500;
+
+    padding: 24px 0;
+}
+.services_item-text{
+    padding-bottom: 41px;
+    letter-spacing: 0.1px;
+}
+
+/*SECTION SERVICES*/
+.about{
+    margin-top: 200px;
+    margin-left: auto;
+    padding-right: 80px;
+    max-width: 1170px;
+}
+.container_about{
+}
+.about_items{
+    display: flex;
+    justify-content: space-between;
+}
+.about_item-left{
+    padding-top: 23px;
+    min-width: 550px;
+    font-size: 43px;
+    color: #141123;
+    line-height: 51px;
+    letter-spacing: 2.1px;
+}
+.about_item-right{
+    min-width: 550px;
+    font-size: 20px;
+    color: #464653;
+    line-height: 37px;
+}
+
+
+
